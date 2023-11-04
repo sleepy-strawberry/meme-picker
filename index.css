@@ -1,7 +1,7 @@
 html,
 body {
   margin: 0;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 /*typography*/
@@ -28,6 +28,7 @@ h2 {
 
 h3 {
   margin: 25px;
+  color: #212329;
 }
 
 /* layout */
@@ -70,7 +71,9 @@ header {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #bcbcbc;
-  padding: 4px 8px;
+  padding: 7px 8px;
+  font-family: 'Luckiest Guy', cursive;
+  color: #b8426b;
 }
 
 .radio:first-child {
@@ -85,7 +88,7 @@ header {
 }
 
 label {
-  font-size: 14px;
+  font-size: 15px;
   padding: 3px;
   width: 100%;
   cursor: pointer;
@@ -105,13 +108,16 @@ input[type='radio'] {
 .gifs-check {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin: 16px;
 }
 
 .gifs-check-label {
   width: unset;
   margin-right: 5px;
+  font-size: 14px;
+  text-align: center;
+  color: #212329;
 }
 
 .get-image-btn {
